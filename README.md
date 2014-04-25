@@ -13,15 +13,20 @@ Offers some basic elements:
 * span
 * small
 
+
 Offers some basic transformations over elements:
 
 * clazz
 * title
 * width
 
+
 Provides a simple (l/content) replacement for use after selectors:
 
-* <-
+* <- 
+
+(which enables you to do stuff like (l/id="my-header") (<- "I love clojure/laser"))
+
 
 Finally some definitions for Twitter Bootstrap classes:
 
