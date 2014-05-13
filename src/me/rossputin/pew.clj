@@ -33,8 +33,6 @@
 (defn small [d] (l/node :small :content d))
 (defn strong [d] (l/node :strong :content d))
 
-;:attrs {:class "list-unstyled"}
-
 
 ;; =============================================================================
 ;; Content transformation shortcut
