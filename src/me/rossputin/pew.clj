@@ -31,6 +31,7 @@
 (defn div ([] (l/node :div)) ([d] (l/node :div :content d)))
 (defn span ([] (l/node :span)) ([d] (l/node :span :content d)))
 (defn small [d] (l/node :small :content d))
+(defn strong [d] (l/node :strong :content d))
 
 ;:attrs {:class "list-unstyled"}
 
